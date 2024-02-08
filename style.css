@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+/*
+    **************
+
+    GENERAL STYLES
+
+    **************
+*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: hsl(222, 26%, 31%);
+}
+button{
+     cursor: pointer;
+}
+.container{
+    border: 2px solid wheat;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.head {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    font-size: 1.2em;
+    color: white;
+    padding-inline: 1em;
+}
+.theme{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+.theme p{
+    font-weight: 900;
+}
+.theme_selector{
+    margin-bottom: 1em;
+}
+.theme_number{
+    font-size: 0.7em;
+    margin: 0;
+}
+.theme_button{
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+.display__container{
+    background-color: white;
+    padding: 0.5em;
+    font-size: 2em;
+    text-align: end;
+    font-weight: bold;
+}
+.calc-buttons{
+    padding: 1em;
+}
+.calc-buttons button{
+    padding: 1em;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+.grid-2-span
+{
+   grid-column: span 2;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+ /* 
+    ++++++++++++
+    MEDIA QUERIES
+    ++++++++++++
+*/
+ @media (min-width: 50em) {
+    .container{
+        width: 35%;
+    }
+ }
