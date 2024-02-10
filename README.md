@@ -81,4 +81,4 @@ Currently the calculator, has a few problems with how it handles zero divsion. A
 
 ## Author
 
-- Frontend Mentor - [Desmends27](https://www.frontendmentor.io/profile/Desmend27)
+- Frontend Mentor - [Desmends27](https://www.frontendmentor.io/profile/Desmends27)
